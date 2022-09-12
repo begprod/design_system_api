@@ -8,9 +8,25 @@
 	<link rel="stylesheet" href="./css/theme.css">
 	<title>Design system API</title>
 	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
 		.flex {
 			display: flex;
-			flex-wrap: wrap;
+		}
+
+		.container {
+			max-width: 1024px;
+			margin: 0 auto;
+			padding: var(--container-spaces);
+		}
+
+		.container__column {
+			flex-grow: 1;
+			margin-right: var(--col-gap-double);
+			border: 1px solid var(--color-bg-border);
 		}
 
 		.card {
@@ -45,25 +61,28 @@
 	</style>
 </head>
 <body>
-	<div class="flex">
-		<div class="card">
-			<p>card default</p>
-		</div>
+	<div class="container flex">
+		<div class="container__column">
+			<div class="card">
+				<p>card default</p>
+			</div>
 
-		<div class="card card_primary">
-			<p>card primary</p>
+			<div class="card card_primary">
+				<p>card primary</p>
+			</div>
 		</div>
+		<div class="container__column">
+			<div class="card card_success">
+				<p>card success</p>
+			</div>
 
-		<div class="card card_success">
-			<p>card success</p>
-		</div>
+			<div class="card card_warning">
+				<p>card warning</p>
+			</div>
 
-		<div class="card card_warning">
-			<p>card success</p>
-		</div>
-
-		<div class="card card_alert">
-			<p>card success</p>
+			<div class="card card_alert">
+				<p>card alert</p>
+			</div>
 		</div>
 	</div>
 </body>
