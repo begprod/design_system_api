@@ -60,6 +60,8 @@
 	--space-6xl: 96px;
 
 	/* TEXT FONT SIZES, clamp - 1024*/
+	/* TODO: Подумать может быть расчитывать шрифт от базового
+     --base-font-size: 16px; */
 	--size-typo-xs: 11px;
 	--size-typo-s: 13px;
 	--size-typo-m: 15px;
@@ -78,4 +80,16 @@
 	--line-height-typo-2xl: clamp(28px, 3.32vw, 34px);
 	--line-height-typo-3xl: clamp(32px, 3.71vw, 38px);
 	--line-height-typo-4xl: clamp(38px, 4.69vw, 48px);
+
+	/* TEXT WEIGHT */
+	--font-weight-text-thin: 100;
+	--font-weight-text-light: 300;
+	--font-weight-text-regular: normal;
+	--font-weight-text-medium: 500;
+	--font-weight-text-bold: bold;
+	--font-weight-text-extrabold: 800;
+	--font-weight-text-black: 900;
+
+	/* CONTAINER OUTER SPACES */
+	--container-spaces: clamp(16px, 3.13vw, 32px);
 }
