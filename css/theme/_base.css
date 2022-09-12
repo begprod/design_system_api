@@ -112,4 +112,12 @@
 	--shadow-cloud-raise: 0 14px 24px -2px rgba(0, 0, 0, 0.08), 0 18px 32px -4px rgba(0, 0, 0, 0.08);
 	/* modal */
 	--shadow-modal-default: 0 14px 24px -2px rgba(0, 0, 0, 0.08), 0 18px 32px -4px rgba(0, 0, 0, 0.08);
+
+	/* BORDER RADIUS */
+	--rounded-xs: 2px;
+	--rounded-s: 4px;
+	--rounded-m: 8px;
+	--rounded-l: 12px;
+	--rounded-xl: 16px;
+	--rounded-2xl: 20px;
 }
