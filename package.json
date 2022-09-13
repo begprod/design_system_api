@@ -1,0 +1,27 @@
+{
+  "name": "design_system_api",
+  "version": "0.1.0",
+  "description": "api for build flexible design systems",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production postcss css/index.css -o dist/styles.css",
+    "dev": "postcss src/index.css -o dist/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/begprod/design_system_api.git"
+  },
+  "author": "Andrey Aratov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/begprod/design_system_api/issues"
+  },
+  "homepage": "https://github.com/begprod/design_system_api#readme",
+  "dependencies": {
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
+    "postcss-custom-media": "^8.0.2",
+    "postcss-import": "^15.0.0",
+    "postcss-nested": "^5.0.6"
+  }
+}
