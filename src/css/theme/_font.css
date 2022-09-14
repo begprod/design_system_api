@@ -1,0 +1,32 @@
+.theme-font {
+	/* TEXT FONT SIZES, clamp - 1024*/
+	/* TODO: Подумать может быть расчитывать шрифт от базового
+     --base-font-size: 16px; */
+	--size-typo-xs: 11px;
+	--size-typo-s: 13px;
+	--size-typo-m: 15px;
+	--size-typo-l: clamp(16px, 1.76vw, 18px);
+	--size-typo-xl: clamp(18px, 1.95vw, 20px);
+	--size-typo-2xl: clamp(20px, 2.34vw, 24px);
+	--size-typo-3xl: clamp(24px, 3.13vw, 32px);
+	--size-typo-4xl: clamp(32px, 3.91vw, 40px);
+
+	/* TEXT LINE HEIGHTS, clamp - 1024 */
+	--line-height-typo-xs: 15px;
+	--line-height-typo-s: 18px;
+	--line-height-typo-m: 21px;
+	--line-height-typo-l: clamp(22px, 2.44vw,25px);
+	--line-height-typo-xl: clamp(25px, 2.73vw, 28px);
+	--line-height-typo-2xl: clamp(28px, 3.32vw, 34px);
+	--line-height-typo-3xl: clamp(32px, 3.71vw, 38px);
+	--line-height-typo-4xl: clamp(38px, 4.69vw, 48px);
+
+	/* TEXT WEIGHT */
+	--font-weight-text-thin: 100;
+	--font-weight-text-light: 300;
+	--font-weight-text-regular: normal;
+	--font-weight-text-medium: 500;
+	--font-weight-text-bold: bold;
+	--font-weight-text-extrabold: 800;
+	--font-weight-text-black: 900;
+}

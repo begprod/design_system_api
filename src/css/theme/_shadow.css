@@ -1,0 +1,12 @@
+.theme-shadow {
+	/* For content */
+	--shadow-content-default: 0 1px 1px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 1px rgba(0, 0, 0, 0.08), 0 4px 8px 1px rgba(0, 0, 0, 0.08);
+	/* hover */
+	--shadow-content-raise: 0 8px 6px -8px rgba(0, 0, 0, 0.08), 0 6px 10px -2px rgba(0, 0, 0, 0.08), 0 10px 20px 0 rgba(0, 0, 0, 0.08);
+	/* over content */
+	--shadow-cloud-default: 0 8px 20px 0 rgba(0, 0, 0, 0.08), 0 12px 24px 0 rgba(0, 0, 0, 0.08);
+	/* hover */
+	--shadow-cloud-raise: 0 14px 24px -2px rgba(0, 0, 0, 0.08), 0 18px 32px -4px rgba(0, 0, 0, 0.08);
+	/* modal */
+	--shadow-modal-default: 0 14px 24px -2px rgba(0, 0, 0, 0.08), 0 18px 32px -4px rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,12 @@
+.theme-container {
+	/* BASE CONTAINER PADDING */
+	--container-spaces: clamp(16px, 3.13vw, 32px);
+
+	/* CONTAINER COLUMNS GAPS */
+	--col-gap-third: calc(var(--container-spaces) * 0.33);
+	--col-gap-half: calc(var(--container-spaces) * 0.5);
+	--col-gap-two-thirds: calc(var(--container-spaces) * 0.66);
+	--col-gap-full: var(--container-spaces);
+	--col-gap-double: calc(var(--container-spaces) * 2);
+	--col-gap-triple: calc(var(--container-spaces) * 3);
+}
