@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/begprod/design_system_api#readme",
   "dependencies": {
+    "cssnano": "^5.1.13",
     "postcss": "^8.4.16",
     "postcss-cli": "^10.0.0",
     "postcss-custom-media": "^8.0.2",

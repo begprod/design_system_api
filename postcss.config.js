@@ -3,6 +3,6 @@ module.exports = {
 		require("postcss-import"),
 		require("postcss-nested"),
 		require("postcss-custom-media"),
-		// ...(process.env.NODE_ENV === "production" ? [require("cssnano")] : []),
+		...(process.env.NODE_ENV === "production" ? [require("cssnano")] : []),
 	],
 };
