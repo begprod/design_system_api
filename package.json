@@ -4,8 +4,8 @@
   "description": "api for build flexible design systems",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV=production postcss css/index.css -o dist/styles.css",
-    "dev": "postcss src/index.css -o dist/styles.css -w"
+    "build": "NODE_ENV=production postcss src/css/style.css --output build/styles.css",
+    "dev": "postcss src/css/style.css --output build/styles.css --watch"
   },
   "repository": {
     "type": "git",
