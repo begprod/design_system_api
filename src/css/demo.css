@@ -256,3 +256,109 @@ body {
 		}
 	}
 }
+
+.font-item {
+	margin-bottom: 50px;
+
+	&_size {
+		&_xs {
+			font-size: var(--size-typo-xs);
+		}
+
+		&_s {
+			font-size: var(--size-typo-s);
+		}
+
+		&_m {
+			font-size: var(--size-typo-m);
+		}
+
+		&_l {
+			font-size: var(--size-typo-l);
+		}
+
+		&_xl {
+			font-size: var(--size-typo-xl);
+		}
+
+		&_2xl {
+			font-size: var(--size-typo-2xl);
+		}
+
+		&_3xl {
+			font-size: var(--size-typo-3xl);
+		}
+
+		&_4xl {
+			font-size: var(--size-typo-4xl);
+		}
+	}
+
+	&[class*="line-height"] {
+		max-width: 100px;
+	}
+
+	&_line-height {
+		&_xs {
+			line-height: var(--line-height-typo-xs);
+		}
+
+		&_s {
+			line-height: var(--line-height-typo-s);
+		}
+
+		&_m {
+			line-height: var(--line-height-typo-m);
+		}
+
+		&_l {
+			line-height: var(--line-height-typo-l);
+		}
+
+		&_xl {
+			line-height: var(--line-height-typo-xl);
+		}
+
+		&_2xl {
+			line-height: var(--line-height-typo-2xl);
+		}
+
+		&_3xl {
+			line-height: var(--line-height-typo-3xl);
+		}
+
+		&_4xl {
+			line-height: var(--line-height-typo-4xl);
+		}
+	}
+
+	&_weight {
+		&_thin {
+			font-weight: var(--font-weight-text-thin);
+		}
+
+		&_light {
+			font-weight: var(--font-weight-text-light);
+		}
+
+		&_regular {
+			font-weight: var(--font-weight-text-regular);
+		}
+
+		&_medium {
+			font-weight: var(--font-weight-text-medium);
+		}
+
+		&_bold {
+			font-weight: var(--font-weight-text-bold);
+		}
+
+		&_extrabold {
+			font-weight: var(--font-weight-text-extrabold);
+		}
+
+		&_black {
+			font-weight: var(--font-weight-text-black);
+		}
+	}
+}
