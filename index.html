@@ -7,81 +7,98 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="build/styles.css">
 	<title>Design system API</title>
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-		}
-
-		.flex {
-			display: flex;
-		}
-
-		.container {
-			max-width: 1024px;
-			margin: 0 auto;
-			padding: var(--container-spaces);
-		}
-
-		.container__column {
-			flex-grow: 1;
-			margin-right: var(--col-gap-double);
-			border: 1px solid var(--color-bg-border);
-		}
-
-		.card {
-			padding: var(--space-l);
-			width: 300px;
-			height: 300px;
-			font-size: var(--size-typo-l);
-			line-height: var(--size-typo-l);
-			color: var(--color-typo-primary);
-			background-color: var(--color-bg-normal);
-		}
-
-		.card_primary {
-			background-color: var(--color-bg-brand);
-			color: var(--color-typo-primary);
-		}
-
-		.card_success {
-			background-color: var(--color-bg-success);
-			color: var(--color-typo-secondary);
-		}
-
-		.card_warning {
-			background-color: var(--color-bg-warning);
-			color: var(--color-typo-secondary);
-		}
-
-		.card_alert {
-			background-color: var(--color-bg-alert);
-			color: var(--color-typo-secondary);
-		}
-	</style>
 </head>
-<body class="theme-color theme-space theme-font theme-container theme-shadow theme-radius">
-	<div class="container flex">
-		<div class="container__column">
-			<div class="card">
-				<p>card default</p>
-			</div>
 
-			<div class="card card_primary">
-				<p>card primary</p>
+<body class="theme-default-color theme-default-space theme-default-font theme-default-container theme-default-shadow theme-default-radius">
+	<div class="container">
+		<h1>Default theme</h1>
+		<div class="box">
+			<h2>Color palete</h2>
+			<h3>Backgrounds</h3>
+			<div class="color-grid">
+				<div class="color-item">
+					<div class="color-item__color color-item_bg_brand"></div>
+					<span class="color-item__label">--color-bg-brand</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_bg_success"></div>
+					<span class="color-item__label">--color-bg-success</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_bg_warning"></div>
+					<span class="color-item__label">--color-bg-warning</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_bg_alert"></div>
+					<span class="color-item__label">--color-bg-alert</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_bg_link"></div>
+					<span class="color-item__label">--color-bg-link</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_bg_default"></div>
+					<span class="color-item__label">--color-bg-default</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_bg_normal"></div>
+					<span class="color-item__label">--color-bg-normal</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_bg_stripe"></div>
+					<span class="color-item__label">--color-bg-stripe</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_bg_border"></div>
+					<span class="color-item__label">--color-bg-border</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_bg_ghost"></div>
+					<span class="color-item__label">--color-bg-ghost</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_bg_tone"></div>
+					<span class="color-item__label">--color-bg-tone</span>
+				</div>
 			</div>
-		</div>
-		<div class="container__column">
-			<div class="card card_success">
-				<p>card success</p>
-			</div>
-
-			<div class="card card_warning">
-				<p>card warning</p>
-			</div>
-
-			<div class="card card_alert">
-				<p>card alert</p>
+			<h3>Typography</h3>
+			<div class="color-grid">
+				<div class="color-item">
+					<div class="color-item__color color-item_typo_brand"></div>
+					<span class="color-item__label">--color-typo-brand</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_typo_success"></div>
+					<span class="color-item__label">--color-typo-success</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_typo_warning"></div>
+					<span class="color-item__label">--color-typo-warning</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_typo_alert"></div>
+					<span class="color-item__label">--color-typo-alert</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_typo_link"></div>
+					<span class="color-item__label">--color-typo-link</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_typo_link_hover"></div>
+					<span class="color-item__label">--color-link-hover</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_typo_primary"></div>
+					<span class="color-item__label">--color-typo-primary</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_typo_secondary"></div>
+					<span class="color-item__label">--color-typo-secondary</span>
+				</div>
+				<div class="color-item">
+					<div class="color-item__color color-item_typo_ghost"></div>
+					<span class="color-item__label">--color-typo-ghost</span>
+				</div>
 			</div>
 		</div>
 	</div>

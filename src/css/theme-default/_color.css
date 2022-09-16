@@ -1,0 +1,35 @@
+/* Базовые цвета от которых выстраивается вся политра */
+$color-base: #000000; /* Базовый цвет содержимого, от которого выстраиваются цвета текста, иконок, ... */
+$color-base-essential: #ffffff; /* Базовый цвет поверхностей */
+$color-base-project: #0056b3; /* Проектный цвет, от которого выстраивают акцентные состояния */
+$color-base-phantom: #000000;  /* Тонирующий цвет, от которого выстраиваются бордеры, паранджа, ... */
+$color-base-path: #0070f0; /* Цвет ссылок, от которого выстраиваются все их состояния */
+$color-base-success: #3aa83a; /* Цвет успеха */
+$color-base-alert: #ff3333; /* Цвет ошибки */
+$color-base-warning: #ff9900; /* Цвет предупреждения */
+$color-base-normal: #dde3e5; /* Цвет нейтральный */
+
+.theme-default-color {
+	--color-bg-brand: $color-base-project; /* Цвет фона брендированый */
+	--color-bg-success: $color-base-success; /* Цвет успеха */
+	--color-bg-warning: $color-base-warning; /* Цвет предупреждения */
+	--color-bg-alert: $color-base-alert; /* Цвет ошибки */
+	--color-bg-link: $color-base-path; /* Цвет фона ссылки */
+	--color-bg-default: $color-base-essential; /* Цвет дефолта */
+	--color-bg-normal: $color-base-normal; /* Цвет нейтральный */
+	--color-bg-stripe: rgba($color-base-phantom, 0.35); /* Цвет зебры */
+	--color-bg-border: rgba($color-base-phantom, 0.5); /* Цвет границ */
+	--color-bg-ghost: rgba($color-base-phantom, 0.7); /* Цвет затенения */
+	--color-bg-tone: rgba($color-base-phantom, 0.8); /* Цвет паранджи */
+
+	--color-typo-brand: $color-base-project; /* Цвет брендового текста */
+	--color-typo-success: $color-base-success; /* Цвет текста успеха */
+	--color-typo-warning: $color-base-warning; /* Цвет текста предупреждения */
+	--color-typo-alert: $color-base-alert; /* Цвет текста ошибки */
+	--color-typo-primary: $color-base; /* Цвет основного текста */
+	--color-typo-secondary: rgba($color-base, 0.6);  /* Цвет второстепенного текста */
+	--color-typo-ghost: rgba($color-base, 0.3);  /* Цвет дополнительного текста */
+
+	--color-typo-link: $color-base-path; /* Цвет основной ссылки */
+	--color-link-hover: rgba($color-base-path, 0.7); /* Цвет ховера ссылки */
+}

@@ -1,4 +1,4 @@
-.theme-container {
+.theme-default-container {
 	/* BASE CONTAINER PADDING */
 	--container-spaces: clamp(16px, 3.13vw, 32px);
 
