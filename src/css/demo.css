@@ -13,14 +13,23 @@ body {
 .box {
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 80px;
 	padding: var(--container-spaces);
 	box-shadow: var(--shadow-content-default);
 	border-radius: var(--radius-l);
 }
 
-.color-grid {
+.grid {
 	display: grid;
-	grid-template-columns: repeat(6, auto);
+	grid-template-columns: repeat(auto-fill, 135px);
+	grid-gap: 25px;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
 }
 
 .color-item {
@@ -28,7 +37,6 @@ body {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	margin: 0 10px 30px 0;
 
 	&__color {
 		width: 100px;
@@ -39,7 +47,6 @@ body {
 
 	&__label {
 		margin-top: 25px;
-		color: inherit;
 	}
 
 	&_bg {
@@ -163,14 +170,89 @@ body {
 	}
 }
 
-.color-item_typo_primary {
-	color: var(--color-typo-primary);
-}
+.space-item {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 50px;
 
-.color-item_typo_secondary {
-	color: var(--color-typo-secondary);
-}
+	&__inner {
+		background-color: var(--color-bg-ghost);
+	}
 
-.color-item_typo_ghost {
-	color: var(--color-typo-ghost);
+	&__label {
+		margin-top: 25px;
+	}
+
+	&_space_3xs {
+		.space-item__inner {
+			padding: var(--space-3xs);
+		}
+	}
+
+	&_space_2xs {
+		.space-item__inner {
+			padding: var(--space-2xs);
+		}
+	}
+
+	&_space_xs {
+		.space-item__inner {
+			padding: var(--space-xs);
+		}
+	}
+
+	&_space_s {
+		.space-item__inner {
+			padding: var(--space-s);
+		}
+	}
+
+	&_space_m {
+		.space-item__inner {
+			padding: var(--space-m);
+		}
+	}
+
+	&_space_l {
+		.space-item__inner {
+			padding: var(--space-l);
+		}
+	}
+
+	&_space_xl {
+		.space-item__inner {
+			padding: var(--space-xl);
+		}
+	}
+
+	&_space_2xl {
+		.space-item__inner {
+			padding: var(--space-2xl);
+		}
+	}
+
+	&_space_3xl {
+		.space-item__inner {
+			padding: var(--space-3xl);
+		}
+	}
+
+	&_space_4xl {
+		.space-item__inner {
+			padding: var(--space-4xl);
+		}
+	}
+
+	&_space_5xl {
+		.space-item__inner {
+			padding: var(--space-5xl);
+		}
+	}
+
+	&_space_6xl {
+		.space-item__inner {
+			padding: var(--space-6xl);
+		}
+	}
 }
